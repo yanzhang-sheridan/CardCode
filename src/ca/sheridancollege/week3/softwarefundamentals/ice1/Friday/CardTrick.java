@@ -12,7 +12,7 @@ public class CardTrick {
        Card cd = new Card("Spade",5);
         System.out.println(cd);
         
-       Card cd2 = new Card("Heart", 10)
+       Card cd2 = new Card("Heart", 10);
          System.out.println(cd2); 
        
     }

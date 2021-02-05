@@ -20,9 +20,9 @@ public class Card {
      * @return the suit
      */
    
-   public Card(string suit, int value){
-      this.setsSuit():
-      this.setValue():
+   public Card(String suit, int value){
+      this.setSuit(suit);
+      this.setValue(value);
    }
    
     public String getSuit() {
@@ -52,7 +52,7 @@ public class Card {
    
    public String toString(){
       
-       return "the card is:" + this.getSuit() + "the value is:" + this.getValue();
+       return "the card is:" + this.getSuit() + ", the value is:" + this.getValue();
    }
     
 }
