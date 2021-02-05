@@ -7,7 +7,8 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
 
 /**
  *
- * @author Ronak
+ * @yan zhang
+ * stu# 991557233
  */
 public class Card {
 
@@ -43,7 +44,9 @@ public class Card {
         this.value = value;
     }
    
-   
+   public String toString(){
+       return "this is yan";
+   }
     
 }
 
